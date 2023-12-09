@@ -12,7 +12,8 @@ const AddTask: React.FC<AddTaskProps> = ({ list, setList }) => {
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setTask(e.target.value);
   };
-
+  
+  // function to add a new task to list
   const handleAddTask = () => {
     if (task.trim() !== "") {
  

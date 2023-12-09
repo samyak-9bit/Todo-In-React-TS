@@ -6,7 +6,8 @@ import TaskList from './components/TaskList';
 
 
 function App() {
-
+  
+// Initial state
   const[list,setList]=useState<Task[]>([]);
 
   
