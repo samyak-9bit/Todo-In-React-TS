@@ -11,6 +11,7 @@ const TaskList: React.FC<TaskListProps> = ({ list,setList  }) => {
   return (
     <table id="taskList">
       <tbody>
+        {/* Display all tasks from list */}
         {list.map((item) => (
           <TaskItem key={item.id} task={item} list={list} setList={setList}/>
         ))}
